@@ -1,0 +1,29 @@
+
+
+    .faq-container {
+        max-width: 800px;
+        margin-top: 124px;
+        padding: 20px;
+    }
+    .faq-category {
+        margin-bottom: 30px;
+    }
+    .faq {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .faq-question {
+        margin: 0;
+        font-size: 18px;
+    }
+    .faq-answer {
+        display: none;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .faq-answer.open {
+        display: block;
+    }

@@ -1,0 +1,141 @@
+*body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8px;
+    background-color: rgb(89, 89, 175);
+    color: white;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    border: 2px solid rgb(38, 38, 66);
+    border-radius: 50px;
+
+
+
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav-links li {
+        display: inline;
+        font-size: larger;
+
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+        background-color: #555;
+    }
+
+    .img-logo {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        margin-left: 30px;
+    }
+
+    .logo-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-title h1 {
+        padding-left: 30px;
+    }
+
+    .Menu-button {
+        display: flex;
+
+    }
+
+
+    .Menu-button i {
+        justify-content: space-around;
+    }
+
+    .menu-button:hover .bi-telephone {
+        background-color: green;
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+
+
+.sideIcon {
+    display: none;
+}
+
+.sidebar {
+    border: solid 1px black;
+    background-color: aquamarine;
+
+    width: 300px;
+    height: 90vh;
+
+
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    display: none;
+}
+
+
+
+
+@media(max-width: 700px) {
+    .sidebar {
+        display: block;
+    }
+
+    .sideIcon {
+        display: block;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 20px;
+    }
+
+    .sidebar ul li {
+        margin-bottom: 10px;
+    }
+
+    .sidebar ul li {
+        margin-bottom: 10px;
+    }
+
+    .sidebar ul li a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .sidebar ul li a:hover {
+        background-color: #ccc;
+    }
+}

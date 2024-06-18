@@ -1,0 +1,104 @@
+.home_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding: 100px;
+    padding-left: 200px;
+    margin-top: 120px;
+
+
+
+
+    .home_container h3 {
+        border-bottom: 3px solid black;
+        width: 154px;
+        color: red;
+        margin-top: 30px;
+
+
+    }
+
+
+    .home_container .bi-house {
+        border-radius: 50%;
+        background-color: #f5dedb;
+
+    }
+
+    .home_container .nav-text {
+        max-width: 50%;
+        margin-top: 800x;
+
+    }
+
+    .nav-banner {
+        width: 300px;
+        height: 300px;
+    }
+
+    .btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 22px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+}
+
+
+
+.home_container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(150, 95, 95);
+    padding: 100px;
+    padding-left: 200px;
+    margin: 0%;
+
+}
+
+
+
+.home_container-3 {
+
+    align-items: center;
+    padding-top: 250px;
+    padding-left: 140px;
+    padding-right: 100px;
+    height: 500px;
+    background-color: #495563;
+
+}
+
+
+.home_container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(162, 201, 186);
+    padding: 50px;
+    padding-left: 200px;
+
+
+
+    h4 {
+        padding-top: 20px;
+    }
+
+
+
+    .list-item {
+
+        padding-top: 20px;
+
+    }
+}

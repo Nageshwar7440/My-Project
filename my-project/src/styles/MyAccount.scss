@@ -1,0 +1,141 @@
+.section_title-area{
+    text-align: center;
+    padding-top: 30px;
+
+    p{
+        padding-top: 20px;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+}
+
+
+.section_title-area {
+    text-align: center;
+    margin-bottom: 2rem;
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+  
+      br {
+        display: none; 
+      }
+    }
+  
+    p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+  }
+  
+  .login-container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 15px;
+  }
+  
+  .account-login-inner {
+    background: #f9f9f9;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      input {
+        margin-bottom: 1rem;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+  
+      .btn-wrapper {
+        .theme-btn-1 {
+          background: #007bff;
+          color: #fff;
+          padding: 0.75rem;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 1rem;
+          font-weight: 600;
+          transition: background 0.3s;
+  
+          &:hover {
+            background: #0056b3;
+          }
+        }
+      }
+    }
+  
+    .go-to-btn {
+      margin-top: 1rem;
+      text-align: center;
+  
+      button {
+        background: none;
+        border: none;
+        color: #007bff;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 0.875rem;
+  
+        &:hover {
+          color: #0056b3;
+        }
+      }
+    }
+  
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+  
+      br {
+        display: none; 
+      }
+    }
+  
+    .theme-btn-1 {
+      background: #28a745;
+      color: #fff;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background 0.3s;
+  
+      &:hover {
+        background: #218838;
+      }
+    }
+  }
+  
