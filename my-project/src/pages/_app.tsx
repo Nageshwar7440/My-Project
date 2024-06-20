@@ -12,7 +12,8 @@ import "@/styles/Services.scss";
 import "@/styles/MyAccount.scss";
 import "@/styles/TermsAndConditions.scss";
 import "@/styles/detail.scss";
-import "@/styles/log-in.scss";
+import "@/styles/Login.scss";
+import "@/styles/SignUp.scss";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {

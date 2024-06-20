@@ -30,8 +30,8 @@ const Property = () => {
                                             <h2>{p?.name}</h2>
                                             <div className="button-container">
                                                 <button className="details-button">Details</button>
-                                                {/* <a href="Cart">   <button className="buy-Cart">Cart</button></a> */}
-                                                <a href='/Cart'>Cart</a>
+                                                <a href="/Cart"><button className="buy-Cart">Cart</button></a>
+
 
                                             </div>
                                         </div>
