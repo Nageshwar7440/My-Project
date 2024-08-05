@@ -2,7 +2,12 @@ import React from 'react';
 import Footer from "../Footer/footer"; 
 import Navbar from "../Navbar/navbar";
 
-const Layout = ({ children }:any) => {
+// Type for the Layout component's props
+interface LayoutProps {
+    children: React.ReactNode;
+}
+
+const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
         <>
             <Navbar />
